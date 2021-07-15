@@ -1,0 +1,1 @@
+﻿[Convert]::ToBase64String([IO.File]::ReadAllBytes("$($args[0])"))
